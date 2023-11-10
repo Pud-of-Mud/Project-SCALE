@@ -1,3 +1,22 @@
-[gd_scene format=2]
+[gd_scene load_steps=5 format=2]
+
+[sub_resource type="CanvasItemMaterial" id=1]
+
+[sub_resource type="Shader" id=2]
+
+[sub_resource type="ShaderMaterial" id=3]
+next_pass = SubResource( 1 )
+shader = SubResource( 2 )
+
+[sub_resource type="CubeMesh" id=4]
 
 [node name="Node2D" type="Node2D"]
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="."]
+material = SubResource( 3 )
+position = Vector2( 367, 299 )
+scale = Vector2( 270.094, 220.039 )
+mesh = SubResource( 4 )
+__meta__ = {
+"_editor_description_": "asdasdasd"
+}
