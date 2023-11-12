@@ -2,28 +2,30 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Penguin-Idle.png-e4559db9b7245e0898a7f2c07499bd68.stex"
+path.s3tc="res://.import/Penguin-Idle.png-e4559db9b7245e0898a7f2c07499bd68.s3tc.stex"
+path.etc2="res://.import/Penguin-Idle.png-e4559db9b7245e0898a7f2c07499bd68.etc2.stex"
 metadata={
-"vram_texture": false
+"imported_formats": [ "s3tc", "etc2" ],
+"vram_texture": true
 }
 
 [deps]
 
 source_file="res://textures/Penguin-Idle.png"
-dest_files=[ "res://.import/Penguin-Idle.png-e4559db9b7245e0898a7f2c07499bd68.stex" ]
+dest_files=[ "res://.import/Penguin-Idle.png-e4559db9b7245e0898a7f2c07499bd68.s3tc.stex", "res://.import/Penguin-Idle.png-e4559db9b7245e0898a7f2c07499bd68.etc2.stex" ]
 
 [params]
 
-compress/mode=0
+compress/mode=2
 compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0
-flags/repeat=0
+flags/repeat=true
 flags/filter=true
-flags/mipmaps=false
+flags/mipmaps=true
 flags/anisotropic=false
-flags/srgb=2
+flags/srgb=1
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
@@ -31,5 +33,5 @@ process/invert_color=false
 process/normal_map_invert_y=false
 stream=false
 size_limit=0
-detect_3d=true
+detect_3d=false
 svg/scale=1.0
