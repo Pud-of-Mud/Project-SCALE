@@ -2,9 +2,9 @@ extends KinematicBody
 
 # Defining the physics
 var velocity = Vector3(0, 0, 0) # Needs to be vector3 becasue of using the 3D Engine. 
-var gravity = 10.0
-var jumpHeight = 9.0
-var movementSpeed = 7.0
+export var gravity : float = 10.0
+export var jumpHeight : float = 9.0
+export var movementSpeed : float = 7.0
 
 
 func _physics_process(delta):
